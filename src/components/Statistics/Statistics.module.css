@@ -1,0 +1,27 @@
+.list {
+  width: 220px;
+  background-color: rgb(235, 235, 235);
+  list-style: none;
+  border-radius: 4px;
+}
+
+.list_item {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px;
+  color: rgb(0, 146, 2);
+}
+
+.list_item:nth-child(n + 2) {
+  color: rgb(158, 160, 0);
+}
+.list_item:nth-child(n + 3) {
+  color: rgb(255, 0, 0);
+}
+
+.list_item:nth-child(n + 4) {
+  color: rgb(0, 0, 0);
+}
+.list_item:nth-child(n + 5) {
+  color: rgb(41, 99, 0);
+}
